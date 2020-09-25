@@ -30,8 +30,8 @@ jobs:
       - name: Github function for yarn
         uses: Borales/actions-yarn@v2.1.0
         with:
-          cmd: install  
-    
+          cmd: install  #yarn install
+
     - name: Installing build
        run: yarn build
      
